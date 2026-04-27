@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>曾银川 - 大模型应用开发工程师</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>YC</span>.<span>Zeng</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">首页</a></li>
+                <li><a href="#about" class="nav-link">关于我</a></li>
+                <li><a href="#education" class="nav-link">教育背景</a></li>
+                <li><a href="#projects" class="nav-link">项目经历</a></li>
+                <li><a href="#internship" class="nav-link">实习经历</a></li>
+                <li><a href="#publications" class="nav-link">学术成果</a></li>
+                <li><a href="#contact" class="nav-link">联系我</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero区 -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">Hello, I'm</div>
+                <h1 class="hero-title"><strong>曾银川</strong></h1>
+                <h2 class="hero-subtitle">大模型应用开发工程师 | AI Agent / RAG / 大模型工程化</h2>
+                <p class="hero-desc">专注大模型应用落地，擅长Agent架构、RAG系统、智能客服、AIOps</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">联系我</a>
+                    <a href="#projects" class="btn btn-secondary">查看项目</a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <div class="avatar-wrapper">
+                    <div class="avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">关于我</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <p class="about-text">电子信息硕士，深耕大模型应用开发与AI Agent架构，具备RAG、多Agent、点云处理等工程经验，追求高效、可靠、可落地的AI系统设计。</p>
+                <div class="about-tags">
+                    <span class="tag">AI Agent</span>
+                    <span class="tag">RAG</span>
+                    <span class="tag">大模型开发</span>
+                    <span class="tag">点云处理</span>
+                    <span class="tag">嵌入式</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="section education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">教育背景</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item animate-element">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>浙江工业大学</h3>
+                            <span class="timeline-date">2023.09 - 2026.06</span>
+                        </div>
+                        <p class="timeline-degree">电子信息（硕士）</p>
+                        <div class="timeline-details">
+                            <p><strong>主修课程：</strong>深度学习、强化学习、视觉SLAM、嵌入式系统</p>
+                            <p><strong>获奖情况：</strong>校级学业奖学金×3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item animate-element">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>河南工业大学</h3>
+                            <span class="timeline-date">2018.09 - 2022.06</span>
+                        </div>
+                        <p class="timeline-degree">自动化（本科）</p>
+                        <div class="timeline-details">
+                            <p><strong>获奖情况：</strong>校级三好学生、优秀团员、CET4、计算机二级</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目经历 -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">项目经历</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate-element">
+                    <div class="project-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="project-title">智能OnCall Agent系统</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">LangGraph</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">ReAct</span>
+                    </div>
+                    <p class="project-desc">负责Agent架构设计、RAG知识库构建、对话系统开发及AIOps功能实现</p>
+                    <div class="project-highlight">
+                        <i class="fas fa-star"></i>
+                        <span>知识检索准确率85%+，运维响应降至分钟级</span>
+                    </div>
+                </div>
+                <div class="project-card animate-element">
+                    <div class="project-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="project-title">基于RAG的大模型智能客服问答系统</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">Chroma</span>
+                    </div>
+                    <p class="project-desc">负责数据向量化处理、语义检索优化、问答链设计及前端界面开发</p>
+                </div>
+                <div class="project-card animate-element">
+                    <div class="project-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="project-title">智扫通 - 基于Agent的扫地机器人客服系统</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">大模型</span>
+                    </div>
+                    <p class="project-desc">负责工具链封装、Agent调度逻辑及流式交互功能开发</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 实习经历 -->
+    <section id="internship" class="section internship">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">实习经历</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="internship-card animate-element">
+                <div class="internship-header">
+                    <div class="internship-info">
+                        <h3>浙江华是科技股份有限公司</h3>
+                        <span class="internship-date">2024.05 - 2025.03</span>
+                    </div>
+                    <span class="internship-role">第一完成人</span>
+                </div>
+                <div class="internship-project">
+                    <h4>激光雷达点云拼接与船舶补全技术研究</h4>
+                    <span class="project-value">45万项目</span>
+                </div>
+                <p class="internship-desc">负责点云补全算法研发、工程化落地及船舶尺寸计算功能实现</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 学术成果 -->
+    <section id="publications" class="section publications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">学术成果</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="publications-grid">
+                <div class="publication-card animate-element">
+                    <div class="publication-icon">
+                        <i class="fas fa-file-text"></i>
+                    </div>
+                    <div class="publication-content">
+                        <h3>基于对称性先验的船舶点云补全方法</h3>
+                        <p class="publication-journal">应用科学学报，2026</p>
+                        <span class="publication-author">第一作者</span>
+                    </div>
+                </div>
+                <div class="publication-card animate-element">
+                    <div class="publication-icon">
+                        <i class="fas fa-shield"></i>
+                    </div>
+                    <div class="publication-content">
+                        <h3>一种船舶点云背侧补全方法及系统</h3>
+                        <p class="publication-journal">专利号：CN119919595B</p>
+                    </div>
+                </div>
+                <div class="publication-card animate-element">
+                    <div class="publication-icon">
+                        <i class="fas fa-shield"></i>
+                    </div>
+                    <div class="publication-content">
+                        <h3>基于模型交互的少样本电感磁芯表面缺陷检测方法</h3>
+                        <p class="publication-journal">专利号：CN121504928A</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">联系我</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-desc">欢迎交流大模型、Agent、RAG、AIOps相关技术</p>
+                <div class="contact-links">
+                    <a href="tel:19550205042" class="contact-item" title="电话">
+                        <i class="fas fa-phone"></i>
+                        <span>19550205042</span>
+                    </a>
+                    <a href="mailto:872633802@qq.com" class="contact-item" title="邮箱">
+                        <i class="fas fa-envelope"></i>
+                        <span>872633802@qq.com</span>
+                    </a>
+                    <a href="#" class="contact-item" title="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="contact-item" title="微信">
+                        <i class="fab fa-weixin"></i>
+                        <span>微信</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 曾银川 | 大模型应用开发工程师</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
